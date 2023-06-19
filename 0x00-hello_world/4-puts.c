@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
  * main - entry point
+ *
  * Return: returns 0 if successfull
  */
 int main(void)
