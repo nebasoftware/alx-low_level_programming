@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - entry point
- *
+ * positive_or_negative - checks for positive or negative
+ * @n: pass value
  * Return: 0 if successful
 */
 void positive_or_negative(int n)
