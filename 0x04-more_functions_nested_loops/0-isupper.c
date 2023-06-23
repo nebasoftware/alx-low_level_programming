@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _isupper - checks for uppercase letters
  * @c: passed value
  * Return: 1 if completed successfully
