@@ -9,10 +9,5 @@
 
 int mul(int a, int b)
 {
-	if (a >= 0 && b >= 0)
-		return (a * b);
-	else if (a < 0 and b >= 0)
-		return ((-1 * a) * b);
-	else if (a >= 0 && b < 0)
-		return ((-1 * b) * a);
+	return (a * b);
 }
