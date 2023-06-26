@@ -13,13 +13,15 @@ int main(void)
 	for (k = 1; k < 101; k++)
 	{
 		if (k % 3 == 0)
-			printf("Fizz ");
+			printf(" Fizz");
 		else if (k % 5 == 0)
-			printf("Buzz ");
+			printf(" Buzz");
 		else if (k % 3 == 0 && k % 5 == 0)
-			printf("FizzBuzz ");
+			printf(" FizzBuzz");
+		else if (k == 1)
+			printf("%d", k);
 		else
-			printf("%d ", k);
+			printf(" %d", k);
 	}
 	printf("\n");
 
