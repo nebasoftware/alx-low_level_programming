@@ -12,9 +12,9 @@ int main(void)
 
 	for (k = 1; k < 101; k++)
 	{
-		if (k % 3 == 0)
+		if (k % 3 == 0 && k % 5 != 0)
 			printf(" Fizz");
-		else if (k % 5 == 0)
+		else if (k % 5 == 0 && k % 3 != 0)
 			printf(" Buzz");
 		else if (k % 3 == 0 && k % 5 == 0)
 			printf(" FizzBuzz");
